@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>位置和尺寸</title>
+	<link rel="stylesheet" href="css/public.css">
+	<script src="js/function.js"></script>
+	<script src="js/animate.js"></script>
+	<script>
+ // alert(document.documentElement.clientWidth)
+ // alert(document.documentElement.clientHeight)
+ $(function(){
+   var box=$(".box")[0]
+   var div=$("div",box)[0]
+   console.log(box.offsetWidth,box.offsetHeight)
+   console.log(div.offsetWidth,div.offsetHeight)
+   console.log(getComputedStyle(div,null).width)  //现代浏览器
+      console.log(div.offsetLeft,div.offsetTop)
+       box.scrollTop=200
+       // var top=document.body.scrollTop||document.documentElement.scrollTop;
+       // document.body.scrollTop=200
+       // document.documentElement.scrollTop=200
+
+
+
+
+
+
+})
+	</script>
+	<style>
+.box{width: 200px;height: 200px;background: red;padding:20px 0px;/*position: relative*/;
+overflow:scroll;}
+.box div{background: blue;padding:20px ; }
+
+
+	</style>
+	<!-- <body style="height: 1000px"></body> -->
+</head>
+<body>
+	<div class="box">
+		<div>我是厚道的人</div>
+阿阿斯顿发你的身份和你说的路口发生的了水电费是廊坊市的发生的浪费当省略福建省的发了啥地方发送到了范德萨发上升到了罚款坚实的浪费发生的理发师飞阿阿斯顿发你的身份和你说的路口发生的了水电费是廊坊市的发生的浪费当省略福建省的发了啥地方发送到了范德萨发上升到了罚款坚实的浪费发生的理发师飞
+阿阿斯顿发你的身份和你说的路口发生的了水电费是廊坊市的发生的浪费当省略福建省的发了啥地方发送到了范德萨发上升到了罚款坚实的浪费发生的理发师飞
+阿阿斯顿发你的身份和你说的路口发生的了水电费是廊坊市的发生的浪费当省略福建省的发了啥地方发送到了范德萨发上升到了罚款坚实的浪费发生的理发师飞
+阿阿斯顿发你的身份和你说的路口发生的了水电费是廊坊市的发生的浪费当省略福建省的发了啥地方发送到了范德萨发上升到了罚款坚实的浪费发生的理发师飞
+阿阿斯顿发你的身份和你说的路口发生的了水电费是廊坊市的发生的浪费当省略福建省的发了啥地方发送到了范德萨发上升到了罚款坚实的浪费发生的理发师飞
+
+
+
+	</div>
+</body>
+</html>

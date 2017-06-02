@@ -1,0 +1,44 @@
+*{
+	margin: 0px; 
+	padding: 0px; 
+	font:12px Arial,"Microsoft YaHei","SimHei";
+}
+li{
+	list-style-type: none;  
+}
+img{
+	border: none;
+	font-size:0;
+}
+a{
+	text-decoration: none;
+	color: #454545;
+}
+input{
+	border: none; 
+	outline: none;
+}
+
+html,body{
+	width: 100%; height: 100%;
+}
+
+
+
+
+
+
+.fl{float: left;}
+.fr{float: right;}
+
+
+
+
+
+
+
+
+
+
+
+

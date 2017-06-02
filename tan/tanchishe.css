@@ -1,0 +1,17 @@
+.box{
+	width: 400px;
+	height: 400px;
+	margin: 10px auto
+}
+.box div{
+	width: 18px;
+	height: 18px;
+	border: 1px solid black;
+	float: left;
+}
+.snake{
+	background: red
+}
+.food{
+	background: blue
+}

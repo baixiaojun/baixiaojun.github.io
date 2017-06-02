@@ -1,0 +1,216 @@
+html,#doc{background:#fff;min-width:1190px}
+#bd{width:100%;position:relative}
+.font_yahei{font-family:"\5fae\8f6f\96c5\9ed1"}
+
+/* 首页幻灯片 */
+#tab_nav{position:relative}
+#tab_nav .pannels{height:470px}
+#tab_nav .content{width:1190px;height:470px;margin:0 auto;position:relative}
+#tab_nav .content a{display:block;width:1190px;height:470px}
+#tab_nav .content .mask_layer{width:200px;height:470px;position:absolute;top:0;right:0}
+#tab_nav .content .mask_layer a{display:block;margin-bottom:1px;transition:transform 0.2s linear}
+#tab_nav .content .mask_layer a:hover{transform:translateX(-5px)}
+#tab_nav .content img{vertical-align:top}
+#tab_nav .tab_pannel{width:100%;height:470px;background-position:center 0;background-repeat:no-repeat;position:absolute;left:0;top:0}
+.top_shadow{height:12px;width:100%;position:absolute;top:0;z-index:5;background:linear-gradient(top,rgba(98,98,98,0.14902) 2%,rgba(255,255,255,0) 86%);background:-o-linear-gradient(top,rgba(98,98,98,0.14902) 2%,rgba(255,255,255,0) 86%);background:-ms-linear-gradient(top,rgba(98,98,98,0.14902) 2%,rgba(255,255,255,0) 86%);background:-moz-linear-gradient(top,rgba(98,98,98,0.14902) 2%,rgba(255,255,255,0) 86%);background:-webkit-linear-gradient(top,rgba(98,98,98,0.14902) 2%,rgba(255,255,255,0) 86%)}
+#tab_nav .eva-switchable-prev,#tab_nav .eva-switchable-next{position:absolute;top:50%;margin-top:-30px;cursor:pointer;filter: alpha(opacity=0);opacity: 0;width:30px;height:60px;text-indent:-99px;overflow:hidden;background-image:url(/rs/img/homepage/prevnext.png);background-repeat:no-repeat;}
+#tab_nav .eva-switchable-prev{background-position:left top;}
+#tab_nav .eva-switchable-prev:hover{background-position:left bottom;}
+#tab_nav .eva-switchable-next{background-position:right top;}
+#tab_nav .eva-switchable-next:hover{background-position:right bottom;}
+#tab_nav .eva-switchable-prev{left:50%;margin-left:-385px;}
+#tab_nav .eva-switchable-next{right:50%;margin-right:-395px;}
+#tab_nav .nav_trriger_warp{width:1190px;margin:0 auto;background:red;position:relative}
+#tab_nav .nav_trriger_warp .nav_trriger{display:none;position:absolute;top:-30px;left:580px}
+#tab_nav .nav_trriger_warp .nav_trriger li{float:left;cursor:pointer;width:30px;border-bottom:8px solid #211616;position:relative;margin-right:1px}
+#tab_nav .nav_trriger_warp .nav_trriger .eva-switchable-active{border-color:#e5004f}
+#tab_nav .nav_trriger_warp .nav_trriger .eva-switchable-active span{display:none;position:absolute;top:-4px;left:20px;width:7px;height:4px;background:url(/rs/img/homepage/nav_tip.png) no-repeat scroll 0 0}
+.focus_pic{position:relative}
+.focus_pic .f_pic{position:absolute;width:200px;height:470px;top:-470px;right:0}
+.focus_pic .f_pic a{display:block; transition:transform 0.2s linear}
+.focus_pic .f_pic a:hover{transform:translateX(-5px)}
+
+/* 品牌tab区 */
+.brand_contentRec{padding-top:30px;height:325px;margin-bottom:25px}
+.brand_content{width:910px;float:left;overflow:hidden}
+.brand_content .eva-switchable-triggers{width:910px}
+.brand_content .eva-switchable-triggers li{float:left;width:303px;height:47px;border-bottom:5px solid #333333;position:relative}
+.brand_content .eva-switchable-triggers .last_w{width:304px}
+.brand_content .eva-switchable-triggers .eva-switchable-active{border-bottom-color:#e5004f}
+.brand_content .eva-switchable-triggers .eva-switchable-active a{font-weight:bold}
+.brand_content .eva-switchable-triggers li a{display:block;width:303px;height:47px;text-align:center;font-size:16px;line-height:47px;color:#000}
+.brand_content .eva-switchable-active span{position:absolute;width:7px;height:4px;left:143px;top:43px;background:url(/rs/img/homepage/yt_ico.png) 0 -16px no-repeat;overflow:hidden}
+.brand_content .eva-switchable-panels .pr_list_t{padding-top:10px;width:940px;height:262px}
+.brand_content .eva-switchable-panels .pr_list_t >a:hover{opacity:0.9}
+.brand_content .yt_pro_detail{border:1px solid #eee}
+.brand_content .eva-switchable-panels .yt_pr_img{padding-top:0}
+.brand_content .pro_list li{float:left;width:220px;height:256px;margin-right:9px;*display:inline;*margin-right:0px}
+.brand_content .pro_list li p{padding-left:12px;line-height:20px;width:198px;height:20px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.brand_content .pro_list a{margin:0;text-decoration:underline}
+.yt_pr_c{font-size:14px;color:#e5004f}
+.yt_pr_s{font-size:11px;color:#909090;margin-left:10px}
+.brand_content .pr_list_t .border_animation{border:1px solid #eee;width:220px;height:260px;float:left;margin-right:7px;*display:inline;*margin-right:5px; position:relative}
+.brand_content .pr_list_t .border_animation img {vertical-align:top}
+.brand_content .pro_list .yt_pr_img{width:220px;height:210px}
+.brand_content .pro_list .yt_pr_img a{display:block;width:220px;height:210px;text-align:center}
+.pro_dpjp{margin-right:10px;*display:inline}
+
+/* 跑马灯 */
+.yt_notice{float:right;width:270px;height:324px;overflow:hidden}
+.yt_notice .noctice-tips{height:24px;overflow:hidden}
+.yt_notice .noctice{padding-left:20px;width:250px;height:16px;background:url(/rs/img/homepage/yt_ico.png) no-repeat scroll 0 0;margin-bottom:7px;overflow:hidden}
+.yt_notice .noctice ul{width:250px;height:16px;overflow:hidden}
+.yt_notice .noctice a{display:block;text-decoration:underline}
+.yt_notice .advert_section{width:270px;height:300px;overflow:hidden}
+.yt_notice .advert_section a:hover{opacity:0.9;filter:alpha(opacity=90)}
+
+/* 活动推荐区 */
+.yt_activity{margin-top:25px;height:462px}
+
+/* 楼层 */
+.floor_nav{float:left;width:228px;height:370px;margin-right:8px;border:1px solid #eee}
+.floor_title{width:1190px;height:46px}
+.floor_title h6{float:left}
+.floor_title .tit_recommend{height:36px;float:right}
+.floor_nav_category{font-size:0;padding:16px 0 0 8px;width:220px;height:172px}
+.floor_nav_category li{float:left;width:67px;height:32px;margin:0 5px 5px 0;display:inline;*zoom:1;vertical-align:top;_margin:2px;_margin-right:0}
+.floor_nav_category li a{display:block;border:1px solid #eee;width:65px;height:32px;font-family:"\5fae\8f6f\96c5\9ed1";font-size:14px;text-align:center;line-height:32px;color:#fff;color:#666;overflow:hidden}
+.floor_nav_category li a:hover{background:#e5004f;color:#fff;border:1px solid #e5004f}
+.floor_nav_category .yt_hotword{color:#e5004f}
+
+.floorbarndSlide{width:200px;height:140px;background:#f2f2f2;border-top:1px dashed #969696;margin-left:15px;position:relative;overflow:hidden}
+.scroller{width:160px;height:116px;margin:0 auto;margin-top:15px;overflow:hidden}
+.scroller .eva-switchable-panels{width:170px;height:116px}
+.scroller .eva-switchable-panels div{width:170px;height:116px}
+.scroller .eva-switchable-panels div a{margin:0 5px 5px 0}
+.floorbarndSlide .eva-switchable-prev,.floorbarndSlide .eva-switchable-next{position:absolute;background:url(/rs/img/homepage/yt_ico_1.png) no-repeat 0 center;width:14px;height:139px;left:5px;top:0;text-indent:-9999em;overflow:hidden;outline:none}
+.floorbarndSlide .eva-switchable-prev:visited ,.floorbarndSlide .eva-switchable-next:visited{outline:none}
+.floorbarndSlide .eva-switchable-prev:hover{background-position:-14px center}
+.floorbarndSlide .eva-switchable-next{background-position:-28px center;left:180px}
+.floorbarndSlide .eva-switchable-next:hover{background-position:-42px center}
+.floor_slide{width:390px;height:370px;border:1px solid #eee;float:left;overflow:hidden}
+.floor_slide .floor_b_pannels a:hover img{opacity:0.9}
+.floor_banner_slide{width:390px;height:370px;position:relative;overflow:hidden}
+
+.floor_banner_slide .eva-switchable-prev,.floor_banner_slide .eva-switchable-next{position:absolute;top:155px;width:30px;height:60px;text-indent:-99px;overflow:hidden;filter:alpha(opacity=70);opacity:0.7;background:url(/rs/img/homepage/prevnext.png) no-repeat;}
+.floor_banner_slide .eva-switchable-prev{left:-30px;background-position:left 0}
+.floor_banner_slide .eva-switchable-prev:hover{background-position:left bottom}
+.floor_banner_slide .eva-switchable-next{right:-30px;background-position:right 0}
+.floor_banner_slide .eva-switchable-next:hover{background-position:right bottom}
+.floor_banner_slide a.eva-switchable-left.eva-switchable-disable-btn:hover{background-position:left 0}
+.floor_banner_slide a.eva-switchable-next.eva-switchable-disable-btn:hover{background-position:right 0}
+
+.floor_b_pannels{width:390px;height:370px;overflow:hidden}
+.floor_b_pannels a{display:block}
+.floor_banner_slide .floor_slide_trigger{position:absolute;bottom:16px;left:163px;height:13px}
+.floor_banner_slide .floor_slide_trigger li{float:left;width:13px;height:13px;margin-right:5px;background:url(/rs/img/homepage/trriger.png) no-repeat;cursor:pointer;_background:url(/rs/img/homepage/trriger_ie6.gif) no-repeat}
+.floor_banner_slide .floor_slide_trigger .eva-switchable-active{background-position:0 -13px}
+
+.floor_banner{float:right;width:552px;height:372px;overflow:hidden}
+.floor_banner .floor_banner_main{width:560px;height:380px}
+.floor_banner .product_block{float:left;width:280px;height:190px}
+.floor_banner .border_animation{position:relative;width:272px;height:182px;float:left}
+.border_animation .img_wrap{width:270px;height:180px;border:1px solid #eee}
+.border_animation .border_top{position:absolute;height:1px;width:0;font-size:0;background:#666666;top:0;left:0;transition:all 0.5s ease-out}
+.border_animation .border_right{position:absolute;height:0px;width:1px;font-size:0;background:#666666;bottom:0;right:0;transition:all 0.5s ease-out}
+.border_animation .border_bootom{position:absolute;height:1px;width:0px;font-size:0;background:#666666;right:0;bottom:0;transition:all 0.5s ease-out}
+.border_animation .border_left{position:absolute;height:0px;width:1px;font-size:0;background:#666666;left:0;top:0;transition:all 0.5s ease-out}
+
+.yt_floor_mp,.yt_floor_wz,.yt_floor_nz,.yt_floor_xx,.yt_floor_xb,.yt_floor_hf,.yt_floor_hw,.yt_floor_ps,.yt_floor_ty{height:418px;margin-top:36px;overflow:hidden}
+.yt_floor_zgtk{margin-top:36px;height:624px;overflow:hidden}
+.yt_floor_mp h6,.yt_floor_wz h6,.yt_floor_nz h6,.yt_floor_xb h6,.yt_floor_xx h6,.yt_floor_hf h6,.yt_floor_hw h6,.yt_floor_ps h6,.yt_floor_ty h6{width:260px;height:36px;text-indent:-9999em;overflow:hidden;margin-bottom:10px;background:url(/rs/img/homepage/floor_all.png) 0 0 no-repeat}
+.yt_floor_wz h6{background-position:0 -46px}
+.yt_floor_nz h6{background-position:0 -92px}
+.yt_floor_xx h6{background-position:0 -138px}
+.yt_floor_xb h6{background-position:0 -184px}
+.yt_floor_hf h6{background-position:0 -230px}
+.yt_floor_hw h6{background-position:0 -276px}
+.yt_floor_ps h6{background-position:0 -322px}
+.yt_floor_ty h6{background-position:0 -368px}
+.yt_floor_zgtk h6{width:380px;height:36px;text-indent:-9999em;margin-bottom:10px}
+.yt_floor_zgtk h6{background:url(/rs/img/homepage/floor_tk.png) 0 0 no-repeat}
+
+/* 合作区 */
+.Y_CorpWrap{height:530px;margin-top:30px}
+.corpwrap{width:550px;height:530px;float:left}
+.yt_powerful{width:628px;height:528px;border:1px solid #eee;float:right}
+.yt_fashion{width:548px;height:258px;overflow:hidden;border:1px solid #eee}
+.corp_slide{position:relative}
+.corp_slide .scroller{width:548px;height:258px;margin:0 auto;margin-top:10px;overflow:hidden;border:1px solid #eee}
+.corp_slide .eva-switchable-panels a{margin:0;width:548px;height:258px}
+.corp_slide .trriger_wrap{height:24px;background:#000;opacity:0.6;position:absolute;top:245px;width:550px;text-align:center}
+.corp_slide .trriger_wrap li{display:inline-block;width:10px;height:17px;color:#949494;line-height:24px;cursor:pointer;*display:inline;*zoom:1;float:left}
+.corp_slide .trriger_wrap .eva-switchable-active{color:#fff}
+.corp_slide .trriger_wrap a{font-weight:bold}
+.corp_slide .trriger_wrap a:hover{color:#fff}
+.corp_trigger{display:inline-block;*display:inline;*zoom:1}
+
+/* 银泰卡 */
+.yt_card{height:167px;margin:34px auto;border:1px solid #eee;overflow:hidden}
+.yt_card div{float:left;height:165px;cursor:pointer;overflow:hidden}
+.yt_card div a{display:block;width:390px;height:165px;margin:0 auto}
+.yt_card div a:hover{opacity:0.7;filter:alpha(opacity=70)}
+.yt_card .public-one{width:395px}
+.yt_card .public-two{width:396px;border-left:1px solid #eee;border-right:1px solid #eee}
+.yt_card .public-san{width:395px}
+
+/* 浮动导航 */
+.float_nav{width:50px;height:545px;position:fixed;left:50%;bottom:20px;margin-left:600px;display:none}
+.float_nav a{display:block;width:30px;height:30px;margin-bottom:5px;padding:5px 10px 15px;line-height:999px;overflow:hidden;background:url(/rs/img/homepage/floor_nav.png) 0 0 no-repeat}
+.float_nav a:hover{background-image:none;line-height:18px;background:#e5004f;color:#fff;font-size:14px;text-align:center}
+.float_nav .f_active{background-image:none;line-height:18px;background:#e5004f;color:#fff;font-size:14px;text-align:center}
+.float_nav .Y_floor_mp{background-position:0 0}
+.float_nav .Y_floor_wz{background-position:0 -55px}
+.float_nav .Y_floor_nz{background-position:0 -110px}
+.float_nav .Y_floor_xx{background-position:0 -165px}
+.float_nav .Y_floor_xb{background-position:0 -220px}
+.float_nav .Y_floor_hf{background-position:0 -275px}
+.float_nav .Y_floor_yd{background-position:0 -330px}
+.float_nav .Y_floor_ps{background-position:0 -385px}
+.float_nav .Y_floor_ty{background-position:0 -440px}
+.float_nav .Y_floor_top{background-position:0 -495px}
+
+.floor_slide img,.floor_banner img,.brand_contentRec img,.floor_b_pannels a img,.floor_tk_content .eva-switchable-panels .pro_list_rm a img{background:url(/rs/img/homepage/loading.jpg) center center no-repeat}
+
+/* 专柜同款 */
+.yt_floor_zgtk .floor_ad{float:left;width:340px;height:555px;overflow:hidden}
+.yt_floor_zgtk .floor_b_pannels{width:340px;height:555px;background-color:#eee}
+.zgtk-content{border:1px solid #eee;padding:10px}
+.zgtk-content .floor_banner_slide .eva-switchable-prev,.zgtk-content .floor_banner_slide .eva-switchable-next {top:250px}
+.yt_floor_zgtk .floor_tk_content{float:right;width:815px;font-family:"\5fae\8f6f\96c5\9ed1"}
+.floor_tk_content .tk_nav{border-bottom:3px solid #333;position:relative;height:35px}
+.floor_tk_content .eva-switchable-panels{float:left;width:910px;height:280px;overflow:hidden}
+.floor_tk_content .eva-switchable-panels a{float:left;*display:inline}
+.floor_tk_content .eva-switchable-panels img{display:block}
+.floor_tk_content .eva-switchable-triggers{position:absolute;top:0px;left:0px}
+.floor_tk_content .eva-switchable-triggers li{float:left;width:102px;height:35px;border-bottom:3px solid #333;text-align:center;line-height:35px;color:#414141;position:relative;font-size:14px}
+.floor_tk_content .eva-switchable-triggers .eva-switchable-active{border-bottom:3px solid #e70050;font-weight:bold}
+.floor_tk_content .eva-switchable-triggers .eva-switchable-active span{background:url(/rs/img/homepage/yt_ico.png) no-repeat scroll 0 -16px rgba(0,0,0,0);height:4px;left:51px;overflow:hidden;position:absolute;top:31px;width:7px}
+.floor_tk_content .eva-switchable-triggers .eva-switchable-active a{color:#414141}
+.floor_tk_content .eva-switchable-panels{height:517px;float:none;overflow:hidden}
+.floor_tk_content .eva-switchable-panels .pro_list_rm a{margin-top:4px;margin-right:5px;display:block;overflow:hidden}
+.floor_tk_content .eva-switchable-panels .pro_list_xp a img{margin:0 auto}
+.floor_tk_content .eva-switchable-panels .pro_list_rm a:hover img{opacity:0.7;filter:alpha(opacity=70)}
+.floor_tk_content .eva-switchable-panels .pro_list_rm .pro_list_rm01{width:220px;height:250px}
+.floor_tk_content .eva-switchable-panels .pro_list_rm .pro_list_rm02{width:365px;height:250px}
+.floor_tk_content .eva-switchable-panels .pro_list_rm .pro_list_rm03{width:220px;height:250px}
+.floor_tk_content .eva-switchable-panels .pro_list_rm .pro_list_rm04{width:290px;height:260px}
+.floor_tk_content .eva-switchable-panels .pro_list_rm .pro_list_rm05{width:240px;height:260px}
+.floor_tk_content .eva-switchable-panels .pro_list_rm .pro_list_rm06{width:275px;height:260px}
+.floor_tk_content .eva-switchable-panels .pro_list_xp a{float:none;text-decoration:underline;color:#323232}
+.floor_tk_content .eva-switchable-panels .pro_list_xp ul{margin-top:10px}
+.floor_tk_content .eva-switchable-panels .pro_list_xp li{width:198px;overflow:hidden;border:1px solid #eee;float:left;margin-right:5px;margin-bottom:5px;position:relative}
+.floor_tk_content .eva-switchable-panels .pro_list_xp li .pro_list_xp_content{background-color:#f8f8f8;padding:5px}
+.floor_tk_content .eva-switchable-panels .pro_list_xp li .pro_list_xp_content p{position:relative}
+.floor_tk_content .eva-switchable-panels .pro_list_xp li .pro_list_xp_content .shichang-price{text-decoration:line-through;position:absolute;top:2px;right:5px;color:#a7a7a7}
+.floor_tk_content .eva-switchable-panels .pro_list_xp li .pro_list_xp_content .yintai-price{color:#e5004f}
+.floor_tk_content .eva-switchable-panels .pro_list_xp li .pro_list_xp_content .pro_list_xp_title{height:20px;overflow:hidden}
+.floor_tk_content .eva-switchable-panels .pro_list_xp li .pro_list_xp_img{width:198px;height:200px;overflow:hidden}
+
+/*wap*/
+#wap_box{width:1190px;height:170px;margin:0 auto;position:relative;background-color:#fff}
+#wap_box a,#wap_close{display:block;position:absolute}
+#wap_close{width:36px;height:36px;cursor:pointer;overflow:hidden;top:5px;right:4px;z-index:2}
+#wap_app,#wap_url{width:595px;height:170px;overflow:hidden;top:0px;left:0px}
+#wap_url{left:595px}
+#wap_ipad{width:1190px;height:170px;overflow:hidden;top:0;left:0}

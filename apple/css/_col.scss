@@ -1,0 +1,72 @@
+//栅格系统
+*{
+  margin:0;
+  padding:0;
+  border:0;
+}
+ul,li,ol,a,h1,h2,h3,h4,h5,h6,p,a,div{
+  list-style:none;
+  text-decoration: none;
+  font-size:14px;
+  font-family: 'Pro extrathin','Pro bold',"Pro semibold","Pro text";
+}
+//引入的字体
+@font-face {
+  font-family:"Pro bold";
+  src:url(../font/myriad-set-pro_bold.woff);
+}
+@font-face {
+  font-family:"Pro extrathin";
+  src:url(../font/myriad-set-pro_extrathin.woff);
+}
+@font-face {
+  font-family:"Pro semibold";
+  src:url(../font/myriad-set-pro_semibold.woff);
+}
+@font-face {
+  font-family:"Pro text";
+  src:url(../font/myriad-set-pro_text.woff);
+}
+@font-face {
+  font-family:"iconfont";
+  src:url(../font/iconfont.woff);
+}
+//变量
+.row{
+  overflow: hidden;
+}
+%m{
+  float:left;
+  position:relative;
+}
+$break-points:(
+  'xs':0,
+  'sm':768px,
+  'md':980px,
+  'lg':1068px,
+) !default;
+$cols:12 !default;
+@each $name in map-keys($break-points){
+  @for $i from 1 through $cols {
+    .col-#{$name}-#{$i}{
+      @extend %m;
+    }
+  }
+  $n:map_get($break-points,$name);
+  @if($n == 0){
+    @for $i from 1 through $cols {
+      .col-#{$name}-#{$i}{
+        width:percentage($i/$cols);
+      }
+    }
+  }@else{
+    @media (min-width:$n){
+      @for $i from 1 through $cols {
+        .col-#{$name}-#{$i}{
+          width:percentage($i/$cols);
+        }
+      }
+    }
+  }
+
+}

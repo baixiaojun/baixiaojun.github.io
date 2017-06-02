@@ -1,0 +1,407 @@
+.topnavbox1{
+    width:1320px;
+	height:34px;
+	margin:0 auto;
+}
+.topnavbox2{
+    width:1320px;
+	height:44px;
+	margin:0 auto;
+	background: white;
+	position: relative;
+}
+.topnavbox1 ul{
+    float:right;
+} 
+.topnavbox1 ul li{
+    float:left;
+	margin-left:24px;
+	line-height:34px;
+}    
+.topnavbox1 ul li a:hover{
+    color:#0283bf;
+	text-decoration:underline;
+}
+.topnavbox2 ul li{
+    float:left;
+	margin-right:27px;
+    line-height:42px;
+}
+.topnavbox2 ul .sousuo{
+	float: right;
+	margin-right:0;
+}
+.topnavbox2 ul li .search{
+	width: 25px;
+	height: 25px;
+	background: url(../img./3.png) no-repeat -40px -71px;
+
+}
+
+.topnavbox2 ul li:hover{
+	border-bottom:2px solid red;
+	
+}
+.topnavbox2 ul li a:hover{
+	color: red;
+}
+.topnavbox2 ul .logo:hover{
+	border-bottom: 0;
+}
+.topnavbox2 ul .sousuo:hover{
+	border-bottom: 0;
+}
+.topnavbox2 ul li .search:hover{
+	width: 25px;
+	height: 25px;
+	background: url(../img./3.png) no-repeat -40px -105px;
+}
+.user{
+	width: 14px;
+	height: 13px;
+	background: url(../img./user.png);
+	float: left;
+	margin-top: 14px;
+	margin-left: 12px;
+	margin-right: 8px;
+}
+.want{
+	width: 98px;
+	height: 40px;
+	background: #eeeeee;
+	display: block;
+	border-radius: 10px;
+	margin-bottom: 2px;
+}
+.topnavbox2 ul li .want:hover{
+	color: white;
+}
+.user:hover{
+	width: 14px;
+	height: 13px;
+	background: url(../img./user.png) 0 -17px;
+	float: left;
+	margin-top: 14px;
+	margin-left: 12px;
+	margin-right: 8px;
+}
+.want:hover{
+	background: red;
+}
+/*导航结束*/
+
+.banner{
+	width: 100%;
+	height: 540px;
+	background:#eaeeef;
+	position: relative;
+}
+.banner ul li{
+	float :left;
+}
+.banner1{
+	width: 360px;
+	height: 198px;
+	background: url(../img./4.png) -13px -10px;
+	margin-left: -130px;
+	margin-top: 145px;
+	margin-right: 165px;
+}
+.banner2{
+	width: 590px;
+	margin-right: 155px;
+	margin-top: 16px;
+}
+.understand{
+	font-size: 16px;
+	color: white;
+	display: block;
+	width: 125px;
+	height: 40px;
+	background-color: #b02d2e;
+	border-radius:5px;
+	margin-top: 375px;
+	margin-left: -525px;
+	line-height: 40px;
+	padding-left: 20px;
+}
+.big{
+	width: 7px;
+	height: 10px;
+	padding-left: 25px;
+	padding-top: 5px;
+}
+.understand:hover{
+	background: red;
+}
+/*banner结束*/
+
+
+.contentbox{
+	width: 1320px;
+	height: 1090px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.contentbox ol li{
+	float: left;
+	width: 650px;
+	height: 350px;
+}
+.contentbox ol .imagebox1{
+	width: 650px;
+	height: 720px; 
+}
+.contentbox{
+	margin-top:20px;
+}
+.contentbox ol .imagebox1{
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.contentbox ol .imagebox3{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.contentbox ol .imagebox5{
+	margin-left: 20px;
+}
+.contentbox ol li a{
+	font-size: 24px;
+	color: white;
+	display: block;
+	margin-left: 40px;
+}
+
+.tu1{
+	width: 650px;
+	height: 720px;
+	background: url(../img./6.jpg);
+}
+.font1{
+	padding-top: 630px;
+}
+.tu2{
+	width: 650px;
+	height: 350px;
+	background: url(../img./7.jpg);
+}
+.font2{
+	padding-top: 260px;
+}
+.tu3{
+	width: 650px;
+	height: 350px;
+	background: url(../img./8.jpg);
+}
+.font3{
+	padding-top: 235px;
+}
+.tu4{
+	width: 650px;
+	height: 350px;
+	background: url(../img./9.jpg);
+}
+.font4{
+	padding-top: 220px;
+}
+.tu5{
+	width: 650px;
+	height: 350px;
+	background: url(../img./10.jpg);
+}
+.font5{
+	padding-top: 225px;
+}
+
+.tu6{
+	width: 1320px;
+	height: 540px;
+	background: plum;
+	background: url(../img./16.jpg);
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.font6{
+	font-size: 36px;
+	color: white;
+	text-align: center;
+	display: block;
+	padding-top: 105px;
+}
+.video{
+	width: 69px;
+	height: 71px;
+	background: url(../img./11.png) no-repeat;
+	margin:0 auto;
+	margin-top: 130px;
+}
+.contentbox1{
+	width: 100%;
+	height: 345px;
+	margin-top: 20px;
+	background: #f5f5f5;
+}
+.newsbox{
+	width: 1150px;
+	height: 300px;
+	margin:0 auto;
+}
+.news{
+	width: 370px;
+	height: 265px;
+	float: left;
+	margin-top: 20px;
+}
+.title1{
+	line-height: 1.5em;
+	margin-bottom: 12px;
+	font-size: 24px;
+}
+.title2{
+	font-size: 16px;
+	line-height: 1.5em;
+}
+.time{
+	font-size: 14px;
+	color: #999999;
+	line-height: 1.5em;
+	margin-bottom: 12px;
+}
+.title1:hover{
+	color: blue;
+	text-decoration: underline;
+}
+.title2:hover{
+	color: blue;
+	text-decoration: underline;
+}
+.title3:hover{
+	color: blue;
+	text-decoration: underline;
+}
+.activebox{
+	width: 710px;
+	height: 295px;
+	margin-top: 20px;
+	float: right;
+}
+.active{
+	width: 340px;
+	height: 100%;
+	float: left;
+}
+.active1{
+	width: 340px;
+	height: 100%;
+	float: right;
+	margin-top: 56px;
+}
+.picture{
+	width: 340px;
+	height: 150px;
+	background: url(../img./11.jpg);
+	margin-top: 20px;
+}
+.title3{
+	line-height: 2.5em;
+}
+.time1{
+	font-size: 14px;
+	line-height: 1.5em;
+}
+.picture1{
+	width: 340px;
+	height: 150px;
+	background: url(../img./12.jpg);
+}
+/*内容结束*/
+
+
+.footbox{
+	width: 100%;
+	height: 280px;
+	background: #272727;
+}
+.foot{
+	width: 1245px;
+	height: 100%;
+	margin:0 auto;
+	padding-left: 75px;
+}
+.footbox .foot ul{
+	float: left;
+	margin-top: 35px;
+	margin-right: 120px;
+}
+.footbox .foot ul li a{
+	color: #cccccc;
+	line-height: 1.5em;
+}
+.footbox .foot ul li p{
+	color: #cccccc;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+.footbox .foot ul li a:hover{
+	text-decoration: underline;
+}
+.logo1{
+	width: 32px;
+	height: 32px;
+	background: url(../img./13.png);
+	float: left;
+}
+.logo2{
+	width: 32px;
+	height: 28px;
+	background: url(../img./14.png);
+	float: left;
+	margin-left: 15px;
+}
+.logo3{
+	width: 81px;
+	height: 81px;
+	background: url(../img./15.jpg);
+	margin-top: 60px;
+	margin-bottom: 10px; 
+}
+.footbox1{
+	width: 100%;
+	height: 60px;
+	background: #272727;
+	border-top:1px solid #424141; 
+}
+.foot1{
+	width: 1320px;
+	height: 40px;
+	margin:0 auto;
+	padding-top: 20px;
+
+}
+.foot2{
+	width: 295px;
+	height: 15px;
+	margin-left: 80px;
+	color:  #cccccc;
+	float: left;
+}
+.footbox1 .foot1 .foot2 a{
+	color:  #cccccc;
+}
+.footbox1 .foot1 .foot2 a:hover{
+	text-decoration: underline;
+}
+.foot3{
+	width: 235px;
+	height: 15px;
+	float: right;
+	color:  #cccccc;
+	margin-right: 230px;	
+}
+.footbox1 .foot1 .foot3 a{
+	color:  #cccccc;
+}
+.footbox1 .foot1 .foot3 a:hover{
+	text-decoration: underline;
+}

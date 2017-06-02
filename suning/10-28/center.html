@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+	<script src="js/function.js"></script>
+	<script src="js/animate.js"></script>
+    <script>
+    $(function(){
+     var box=$(".box")[0]
+     var w=getStyle(box,"width")
+     var h=getStyle(box,"height")
+     var d=document.documentElement.clientWidth
+     var c=document.documentElement.clientHeight
+     var speedx=5
+     var speedy=5
+     var a=box.offsetLeft
+     var b=box.offsetTop
+     function move(){	
+        a+=speedx
+        b+=speedy
+               if(b>=c-h ){
+               	b=c-h
+               	speedy*=-1
+        } if(b<=0){
+              b=0
+        	speedy*=-1
+        } 
+              if(a>=d-w ){
+               a=d-w
+               	speedx*=-1
+        } if(a<=0){
+              a=0
+        	speedx*=-1
+        }       
+                                
+         box.style.left=a+"px"
+         box.style.top=b+"px"
+
+    }
+    box.onmouseover=function(){
+    	clearInterval(t)
+
+    } 
+    box.onmouseout=function(){
+    t=setInterval(move,1) 
+     }
+
+     var t=setInterval(move,5)  
+})
+
+
+
+
+    </script>
+
+
+
+	<style>
+     .box{width: 100px;height: 100px;border-radius: 50%;background: red;position: relative;}
+
+
+	</style>
+</head>
+<body>
+	<div class="box"></div>
+</body>
+</html>

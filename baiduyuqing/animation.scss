@@ -1,0 +1,61 @@
+@keyframes li {
+  0%{
+    transform: translate(-50%,0);
+    opacity:0
+  }
+100%{
+  transform: translate(0,0);
+  opacity: 1;
+}
+}
+
+@keyframes ri {
+  0%{
+    transform: translate(50%,0);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(0,0);
+    opacity: 1;
+  }
+}
+
+@keyframes tb {
+   0%{
+     transform: translate(0,10%);
+   }
+   100%{
+     transform: translate(0,0);
+   }
+ }
+
+@keyframes tbbs {
+  0%{
+    transform: translate(0,- 20%);
+  }
+50%{
+  transform: translate(0,0%);
+}
+100%{
+  transform: translate(0,10%);
+  opacity: 0.3;
+}
+}
+
+@keyframes lr {
+  0%{
+    transform: translate(0,0);
+  }
+  100%{
+    transform: translate(-50%,0);
+  }
+}
+
+@keyframes ro {
+  0%{
+      transform: rotateY(0deg);
+  }
+100%{
+    transform: rotateY(360deg);
+  }
+}
